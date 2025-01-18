@@ -8,7 +8,6 @@ export const HW3 = () => {
 
     const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
         setCurrentText(event.currentTarget.value);
-        console.log(event);
     };
 
     const handleSave = () => {
